@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Challenge Result (encrypted)</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+
+    <!--custom css-->
+    <style>
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+        }
+        
+        body {
+            padding-top: 50px;
+        }
+        
+        #landing {
+            display: table;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('http://solarviews.com/raw/earth/earthafr.jpg') no-repeat center;
+            background-size: cover;
+        }
+        
+        #nature {
+            display: table;
+            width: 100%;
+            background: linear-gradient( rgba(0, 0, 50, 0.75), rgba(0, 0, 50, 0.75)), url('http://legacyglobaldevelopment.com/wp-content/uploads/2016/09/shutterstock_139755556-2000x1000.jpg') no-repeat center;
+            background-size: cover;
+        }
+        
+        #nature h2 {
+            padding: 60px 0;
+        }
+        
+        h1 {
+            font-size: 100px;
+            font-family: "Anton";
+        }
+        
+        h2 {
+            font-size: 30px;
+        }
+        
+        .text-vertical-center {
+            text-align: center;
+            vertical-align: middle;
+            display: table-cell;
+            color: white;
+        }
+        
+        .jumbotron,
+        .row {
+            margin: 30px 0;
+        }
+        
+        .jumbotron h1 {
+            font-size: 75px;
+        }
+        /* small+ */
+        
+        @media(min-width:768px) {
+            h1 {
+                font-size: 200px;
+            }
+            h2 {
+                font-size: 60px;
+            }
+        }
+        /* medium+ */
+        
+        @media(min-width:992px) {
+            h1 {
+                font-size: 260px;
+            }
+            h2 {
+                font-size: 80px;
+            }
+        }
+        /* large+ */
+        
+        @media(min-width:1200px) {
+            h1 {
+                font-size: 300px;
+            }
+            h2 {
+                font-size: 100px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+                <a class="navbar-brand" href="#">Earth</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#welcome">Welcome <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#nature">Nature</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+
+    <div id="landing">
+        <div class="text-vertical-center">
+            <h1>Earth</h1>
+            <h2>We're all here</h2>
+        </div>
+    </div>
+
+    <div id="welcome" class="container">
+        <div class="jumbotron">
+            <h1>Welcome</h1>
+            <p>There's lots of stuff to discover here.</p>
+            <p>Let me show you around.</p>
+        </div>
+    </div>
+
+    <div id="nature">
+        <div class="text-vertical-center container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h2>Trees</h2>
+                </div>
+                <div class="col-sm-4">
+                    <h2>Water</h2>
+                </div>
+                <div class="col-sm-4">
+                    <h2>Sunsets</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-0">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a lectus eu est consequat elementum nec vitae felis. Fusce vel augue magna. Etiam lacinia arcu eget tincidunt malesuada. Aliquam pharetra purus eget massa finibus rhoncus. Etiam
+                    dapibus ex pulvinar eros scelerisque iaculis. Donec semper consequat diam, sed scelerisque quam molestie a. Aliquam accumsan est lectus, a rutrum ex gravida non. Etiam eget ligula porttitor, interdum nibh eu, tincidunt est. Praesent
+                    ultricies augue eu neque aliquet fermentum. Vestibulum tempus massa eget luctus imperdiet. Sed felis nunc, semper sed imperdiet et, gravida sit amet nibh. Nullam pellentesque nisi eleifend odio venenatis sagittis.
+                </p>
+                <p>In turpis orci, venenatis id lacus et, rhoncus tincidunt mi. Nam pharetra neque augue, non bibendum felis scelerisque id. Fusce convallis ornare consequat. Mauris convallis, neque quis luctus suscipit, arcu erat varius nibh, vel eleifend
+                    enim elit iaculis mauris. Phasellus non pellentesque turpis, sed sollicitudin nunc. Morbi sodales tempus porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum vitae ante vel leo tempus
+                    hendrerit sit amet vel tortor. Phasellus odio tortor, ultricies nec luctus sollicitudin, sollicitudin at mi. Quisque facilisis leo ex.
+                </p>
+                <p>Nulla rhoncus sagittis arcu. Aenean augue orci, gravida ac augue et, eleifend egestas risus. Phasellus fringilla vehicula nisl, quis consequat dolor sagittis quis. Integer viverra volutpat elit, eu maximus nunc auctor a. Quisque rutrum
+                    mattis massa ac faucibus. Pellentesque iaculis, diam eu fringilla accumsan, velit dui ultricies nisl, quis fermentum ex elit ac quam. Mauris id blandit ante. Ut orci orci, gravida porta erat ac, tempus facilisis dui. Vestibulum ante
+                    ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+            </div>
+            <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-0">
+                <p>Praesent tempus tempus pharetra. Proin sed pellentesque ante, sit amet sodales magna. Sed sit amet odio sed tortor tincidunt venenatis quis ut nisl. Proin sed diam posuere sapien porta imperdiet porta quis magna. Nullam ex ante, tristique
+                    a sodales eu, pretium tincidunt odio. Maecenas id viverra odio. Nullam placerat nunc in tristique sagittis. Donec lectus dolor, ullamcorper in gravida et, fringilla at ligula. Praesent ultrices feugiat molestie. Pellentesque at dolor
+                    in magna venenatis congue sit amet et ligula.
+                </p>
+                <p>Nullam mattis condimentum tempor. Vestibulum aliquet dictum rutrum. Curabitur fringilla quam sollicitudin feugiat tempus. Curabitur scelerisque lacus a ante bibendum, sed pharetra urna vulputate. Fusce sodales, neque nec venenatis laoreet,
+                    risus nulla pulvinar leo, eget tincidunt est lectus ac ante. Maecenas euismod vitae lorem nec mollis. Quisque laoreet ligula nec turpis suscipit, et pharetra purus condimentum. Cras in nisl commodo, fringilla ipsum sit amet, commodo
+                    ex. Donec et metus quis purus ultricies viverra. Proin non nunc in dolor ultricies vehicula. Curabitur ac magna nec mi imperdiet fermentum eu eget lacus. Cras eget vulputate nibh, non lobortis urna. Fusce non erat metus. Sed quam eros,
+                    tempor quis scelerisque a, ultrices in ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
